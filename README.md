@@ -1,6 +1,12 @@
+ Dự án này được thực hiện bởi đội ngũ VNPT AI, với mục tiêu hỗ trợ việc dự đoán thời gian hoàn thành các thủ tục trong dịch vụ công trực tuyến (DVC). Đây là một phần trong nỗ lực nâng cao chất lượng và hiệu quả cung cấp dịch vụ công tại một tỉnh của Việt Nam.
+
+Dữ liệu được cung cấp từ hệ thống DVC của tỉnh, bao gồm các thông tin về thời gian tiếp nhận, thời gian hoàn thành, loại thủ tục hành chính, và các đơn vị thực hiện. Dự án không chỉ nhằm mục tiêu cải thiện dự đoán mà còn giúp tối ưu hóa quy trình xử lý hồ sơ, tăng cường sự hài lòng của người dân và giảm tải cho các cơ quan quản lý nhà nước.
+
+Lưu ý: Vì tính bảo mật của dự án, tôi chỉ có thể chia sẻ về cách tôi thực hiện triển khai mô hình như nào. Tất cả các thông tin liên quan đến data và bối cảnh dự án đều sẽ được bảo mật.
+
 # VNPT_MachineLearning_TimeSeries_Prediction
 
-Trong bối cảnh chuyển đổi số và nhu cầu nâng cao hiệu quả dịch vụ công trực tuyến, việc dự đoán chính xác thời gian hoàn thành các thủ tục hành chính đóng vai trò quan trọng. Điều này không chỉ giúp cải thiện trải nghiệm người dùng mà còn tối ưu hóa quy trình vận hành của các đơn vị thực hiện.
+Trong bối cảnh chuyển đổi số và nhu cầu nâng cao hiệu quả dịch vụ công trực tuyến, việc dự đoán chính xác thời gian hoàn thành các thủ tục hành chính đóng vai trò quan trọng. Điều này không chỉ giúp cải thiện trải nghiệm người dùng mà còn tối ưu hóa quy trình vận hành của các đơn vị thực hiện. 
 
 Dựa trên dữ liệu thu thập được từ nhiều nhóm đơn vị và thủ tục khác nhau, tôi đã triển khai một dự án sử dụng mô hình XGBoost kết hợp với chiến lược dự báo đệ quy (recursive prediction) để giải quyết bài toán multi-time series forecasting. Quy trình này được thiết kế nhằm xử lý dữ liệu không đồng nhất và không ổn định về tần suất, đảm bảo mô hình có thể dự đoán chính xác và áp dụng linh hoạt trên nhiều nhóm khác nhau.
 
