@@ -6,42 +6,7 @@ Dựa trên dữ liệu thu thập được từ nhiều nhóm đơn vị và th
 
 Từ việc tiền xử lý dữ liệu phức tạp, chia tập train/test thông minh, đến tối ưu hóa hyperparameter và đánh giá kết quả, tôi đã xây dựng một pipeline mạnh mẽ để dự đoán thời gian hoàn thành thủ tục với độ chính xác cao. Hãy cùng khám phá chi tiết quy trình và những kết quả nổi bật mà tôi đã đạt được!
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Time-Series Prediction Project</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0 auto;
-            max-width: 800px;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        h1 {
-            text-align: center;
-        }
-        ul {
-            margin: 0;
-            padding: 0 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        .highlight {
-            color: #0066cc;
-        }
-    </style>
-</head>
+
 <body>
     <h1>Time-Series Prediction Project</h1>
     <h2>1. Khám phá và Xử lý Dữ liệu (Exploratory Data Analysis - EDA)</h2>
