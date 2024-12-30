@@ -1,0 +1,8 @@
+
+Một điều rất thú vị trong dự án này chính là bản chất dữ liệu không phải là multivariate time-series thông thường mà thay vào đó, chúng được tổ chức dưới dạng các nhóm ma_don_vi_thuc_hien độc lập. Điều này dẫn đến một thách thức lớn: dữ liệu trong từng nhóm không có tần suất cố định, khiến cho việc áp dụng các mô hình dự báo truyền thống như ARIMA hoặc Prophet trở nên không khả thi.
+
+Để giải quyết vấn đề này, tôi đã lựa chọn XGBoost, một mô hình rất mạnh mẽ với khả năng xử lý tốt các dữ liệu phi tuyến tính và không đòi hỏi sự đồng nhất về tần suất của time-series. Điểm nổi bật là cách tôi sử dụng group-by theo từng nhóm ma_don_vi_thuc_hien, cho phép mô hình hiểu rõ hơn các đặc điểm riêng biệt trong từng nhóm.
+
+Ngoài ra, việc kết hợp XGBoost với chiến lược recursive prediction là một bước đột phá trong dự án này. Với phương pháp này, tôi có thể dự đoán từng bước thời gian và tận dụng dự đoán của bước trước làm đầu vào cho bước tiếp theo. Cách tiếp cận này không chỉ giải quyết bài toán multi-step forecasting mà còn cải thiện đáng kể độ chính xác của mô hình. Đây thực sự là một điểm sáng trong quy trình triển khai mà tôi rất tự hào khi áp dụng thành công vào bài toán thực tế này.
+
+## Cuối cùng.
